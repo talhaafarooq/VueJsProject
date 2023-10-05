@@ -49,8 +49,8 @@
                 </button>
                 <div class="collapse navbar-collapse me-n3" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <router-link to="" class="nav-item nav-link active">Home</router-link>
-                        <router-link to="about" class="nav-item nav-link">About</router-link>
+                        <router-link to="/" class="nav-item nav-link active">Home</router-link>
+                        <router-link to="/about" class="nav-item nav-link">About</router-link>
                         <a href="service.html" class="nav-item nav-link">Services</a>
                         <a href="project.html" class="nav-item nav-link">Projects</a>
                         <div class="nav-item dropdown">
@@ -63,7 +63,7 @@
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <router-link to="/contactus" class="nav-item nav-link">Contact</router-link>
                     </div>
                 </div>
             </nav>

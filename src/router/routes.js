@@ -10,6 +10,11 @@ const routes=[
         name:'AboutUs',
         path:'/about',
         component:()=>import('@/components/About.vue'),
+    },
+    {
+        name:'ContactUs',
+        path:'/contactus',
+        component:()=>import('@/components/Contact.vue'),
     }
 ];
 
